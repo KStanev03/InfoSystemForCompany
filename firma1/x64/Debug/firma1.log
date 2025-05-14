@@ -1,0 +1,179 @@
+﻿  main.cpp
+D:\Cplusplus\CourseProject1\firma1\main.cpp(11,17): error C2065: 'Department': undeclared identifier
+D:\Cplusplus\CourseProject1\firma1\main.cpp(11,10): error C2923: 'std::vector': 'Department' is not a valid template type argument for parameter '_Ty'
+      D:\Cplusplus\CourseProject1\firma1\main.cpp(11,17):
+      see declaration of 'Department'
+  
+D:\Cplusplus\CourseProject1\firma1\main.cpp(11,10): error C2976: 'std::vector': too few template arguments
+      D:\visual studio\VC\Tools\MSVC\14.42.34321\include\vector(429,7):
+      see declaration of 'std::vector'
+  
+D:\Cplusplus\CourseProject1\firma1\main.cpp(23,24): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\Cplusplus\CourseProject1\firma1\main.cpp(23,40): error C2143: syntax error: missing ',' before '&'
+D:\Cplusplus\CourseProject1\firma1\main.cpp(25,17): error C2065: 'Department': undeclared identifier
+D:\Cplusplus\CourseProject1\firma1\main.cpp(25,10): error C2923: 'std::vector': 'Department' is not a valid template type argument for parameter '_Ty'
+      D:\Cplusplus\CourseProject1\firma1\main.cpp(25,17):
+      see declaration of 'Department'
+  
+D:\Cplusplus\CourseProject1\firma1\main.cpp(25,10): error C2976: 'std::vector': too few template arguments
+      D:\visual studio\VC\Tools\MSVC\14.42.34321\include\vector(429,7):
+      see declaration of 'std::vector'
+  
+D:\Cplusplus\CourseProject1\firma1\main.cpp(36,17): error C2065: 'Employee': undeclared identifier
+D:\Cplusplus\CourseProject1\firma1\main.cpp(36,10): error C2923: 'std::vector': 'Employee' is not a valid template type argument for parameter '_Ty'
+      D:\Cplusplus\CourseProject1\firma1\main.cpp(36,17):
+      see declaration of 'Employee'
+  
+D:\Cplusplus\CourseProject1\firma1\main.cpp(36,10): error C2976: 'std::vector': too few template arguments
+      D:\visual studio\VC\Tools\MSVC\14.42.34321\include\vector(429,7):
+      see declaration of 'std::vector'
+  
+D:\Cplusplus\CourseProject1\firma1\main.cpp(51,22): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+D:\Cplusplus\CourseProject1\firma1\main.cpp(51,36): error C2143: syntax error: missing ',' before '&'
+D:\Cplusplus\CourseProject1\firma1\main.cpp(53,17): error C2065: 'Employee': undeclared identifier
+D:\Cplusplus\CourseProject1\firma1\main.cpp(53,10): error C2923: 'std::vector': 'Employee' is not a valid template type argument for parameter '_Ty'
+      D:\Cplusplus\CourseProject1\firma1\main.cpp(53,17):
+      see declaration of 'Employee'
+  
+D:\Cplusplus\CourseProject1\firma1\main.cpp(53,10): error C2976: 'std::vector': too few template arguments
+      D:\visual studio\VC\Tools\MSVC\14.42.34321\include\vector(429,7):
+      see declaration of 'std::vector'
+  
+D:\Cplusplus\CourseProject1\firma1\main.cpp(151,21): error C2664: 'void Firma::addDepartment(const int)': cannot convert argument 1 from 'Department' to 'const int'
+      D:\Cplusplus\CourseProject1\firma1\main.cpp(151,45):
+      No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+      D:\Cplusplus\CourseProject1\firma1\main.cpp(23,10):
+      see declaration of 'Firma::addDepartment'
+      D:\Cplusplus\CourseProject1\firma1\main.cpp(151,21):
+      while trying to match the argument list '(Department)'
+  
+D:\Cplusplus\CourseProject1\firma1\main.cpp(205,70): error C2663: 'std::vector<_Ty,_Alloc>::begin': no overloaded function has valid conversion for 'this' pointer
+      D:\visual studio\VC\Tools\MSVC\14.42.34321\include\vector(1803,44):
+      could be 'std::_Vector_const_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>> std::vector<_Ty,_Alloc>::begin(void) noexcept const'
+          D:\Cplusplus\CourseProject1\firma1\main.cpp(205,70):
+          'std::_Vector_const_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>> std::vector<_Ty,_Alloc>::begin(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+              D:\Cplusplus\CourseProject1\firma1\main.cpp(205,53):
+              Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+              D:\Cplusplus\CourseProject1\firma1\main.cpp(205,53):
+              Conversion requires a second user-defined-conversion operator or constructor
+      D:\visual studio\VC\Tools\MSVC\14.42.34321\include\vector(1798,38):
+      or       'std::_Vector_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>> std::vector<_Ty,_Alloc>::begin(void) noexcept'
+          D:\Cplusplus\CourseProject1\firma1\main.cpp(205,70):
+          'std::_Vector_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>> std::vector<_Ty,_Alloc>::begin(void) noexcept': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              D:\Cplusplus\CourseProject1\firma1\main.cpp(205,53):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              D:\Cplusplus\CourseProject1\firma1\main.cpp(205,53):
+              Conversion requires a second user-defined-conversion operator or constructor
+      D:\Cplusplus\CourseProject1\firma1\main.cpp(205,70):
+      while trying to match the argument list '()'
+  
+D:\Cplusplus\CourseProject1\firma1\main.cpp(205,100): error C2663: 'std::vector<_Ty,_Alloc>::end': no overloaded function has valid conversion for 'this' pointer
+      D:\visual studio\VC\Tools\MSVC\14.42.34321\include\vector(1813,44):
+      could be 'std::_Vector_const_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>> std::vector<_Ty,_Alloc>::end(void) noexcept const'
+          D:\Cplusplus\CourseProject1\firma1\main.cpp(205,100):
+          'std::_Vector_const_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>> std::vector<_Ty,_Alloc>::end(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+              D:\Cplusplus\CourseProject1\firma1\main.cpp(205,83):
+              Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+              D:\Cplusplus\CourseProject1\firma1\main.cpp(205,83):
+              Conversion requires a second user-defined-conversion operator or constructor
+      D:\visual studio\VC\Tools\MSVC\14.42.34321\include\vector(1808,38):
+      or       'std::_Vector_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>> std::vector<_Ty,_Alloc>::end(void) noexcept'
+          D:\Cplusplus\CourseProject1\firma1\main.cpp(205,100):
+          'std::_Vector_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>> std::vector<_Ty,_Alloc>::end(void) noexcept': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              D:\Cplusplus\CourseProject1\firma1\main.cpp(205,83):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              D:\Cplusplus\CourseProject1\firma1\main.cpp(205,83):
+              Conversion requires a second user-defined-conversion operator or constructor
+      D:\Cplusplus\CourseProject1\firma1\main.cpp(205,100):
+      while trying to match the argument list '()'
+  
+D:\Cplusplus\CourseProject1\firma1\main.cpp(206,25): error C3536: 'dept_it': cannot be used before it is initialized
+D:\Cplusplus\CourseProject1\firma1\main.cpp(206,57): error C2663: 'std::vector<_Ty,_Alloc>::end': no overloaded function has valid conversion for 'this' pointer
+      D:\visual studio\VC\Tools\MSVC\14.42.34321\include\vector(1813,44):
+      could be 'std::_Vector_const_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>> std::vector<_Ty,_Alloc>::end(void) noexcept const'
+          D:\Cplusplus\CourseProject1\firma1\main.cpp(206,57):
+          'std::_Vector_const_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>> std::vector<_Ty,_Alloc>::end(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+              D:\Cplusplus\CourseProject1\firma1\main.cpp(206,40):
+              Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+              D:\Cplusplus\CourseProject1\firma1\main.cpp(206,40):
+              Conversion requires a second user-defined-conversion operator or constructor
+      D:\visual studio\VC\Tools\MSVC\14.42.34321\include\vector(1808,38):
+      or       'std::_Vector_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>> std::vector<_Ty,_Alloc>::end(void) noexcept'
+          D:\Cplusplus\CourseProject1\firma1\main.cpp(206,57):
+          'std::_Vector_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>> std::vector<_Ty,_Alloc>::end(void) noexcept': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              D:\Cplusplus\CourseProject1\firma1\main.cpp(206,40):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              D:\Cplusplus\CourseProject1\firma1\main.cpp(206,40):
+              Conversion requires a second user-defined-conversion operator or constructor
+      D:\Cplusplus\CourseProject1\firma1\main.cpp(206,57):
+      while trying to match the argument list '()'
+  
+D:\Cplusplus\CourseProject1\firma1\main.cpp(206,33): error C2446: '!=': no conversion from 'std::_Vector_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>>' to 'int'
+      D:\Cplusplus\CourseProject1\firma1\main.cpp(206,60):
+      No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  
+D:\Cplusplus\CourseProject1\firma1\main.cpp(230,66): error C2663: 'std::vector<_Ty,_Alloc>::begin': no overloaded function has valid conversion for 'this' pointer
+      D:\visual studio\VC\Tools\MSVC\14.42.34321\include\vector(1803,44):
+      could be 'std::_Vector_const_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>> std::vector<_Ty,_Alloc>::begin(void) noexcept const'
+          D:\Cplusplus\CourseProject1\firma1\main.cpp(230,66):
+          'std::_Vector_const_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>> std::vector<_Ty,_Alloc>::begin(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+              D:\Cplusplus\CourseProject1\firma1\main.cpp(230,49):
+              Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+              D:\Cplusplus\CourseProject1\firma1\main.cpp(230,49):
+              Conversion requires a second user-defined-conversion operator or constructor
+      D:\visual studio\VC\Tools\MSVC\14.42.34321\include\vector(1798,38):
+      or       'std::_Vector_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>> std::vector<_Ty,_Alloc>::begin(void) noexcept'
+          D:\Cplusplus\CourseProject1\firma1\main.cpp(230,66):
+          'std::_Vector_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>> std::vector<_Ty,_Alloc>::begin(void) noexcept': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              D:\Cplusplus\CourseProject1\firma1\main.cpp(230,49):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              D:\Cplusplus\CourseProject1\firma1\main.cpp(230,49):
+              Conversion requires a second user-defined-conversion operator or constructor
+      D:\Cplusplus\CourseProject1\firma1\main.cpp(230,66):
+      while trying to match the argument list '()'
+  
+D:\Cplusplus\CourseProject1\firma1\main.cpp(230,96): error C2663: 'std::vector<_Ty,_Alloc>::end': no overloaded function has valid conversion for 'this' pointer
+      D:\visual studio\VC\Tools\MSVC\14.42.34321\include\vector(1813,44):
+      could be 'std::_Vector_const_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>> std::vector<_Ty,_Alloc>::end(void) noexcept const'
+          D:\Cplusplus\CourseProject1\firma1\main.cpp(230,96):
+          'std::_Vector_const_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>> std::vector<_Ty,_Alloc>::end(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+              D:\Cplusplus\CourseProject1\firma1\main.cpp(230,79):
+              Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+              D:\Cplusplus\CourseProject1\firma1\main.cpp(230,79):
+              Conversion requires a second user-defined-conversion operator or constructor
+      D:\visual studio\VC\Tools\MSVC\14.42.34321\include\vector(1808,38):
+      or       'std::_Vector_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>> std::vector<_Ty,_Alloc>::end(void) noexcept'
+          D:\Cplusplus\CourseProject1\firma1\main.cpp(230,96):
+          'std::_Vector_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>> std::vector<_Ty,_Alloc>::end(void) noexcept': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              D:\Cplusplus\CourseProject1\firma1\main.cpp(230,79):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              D:\Cplusplus\CourseProject1\firma1\main.cpp(230,79):
+              Conversion requires a second user-defined-conversion operator or constructor
+      D:\Cplusplus\CourseProject1\firma1\main.cpp(230,96):
+      while trying to match the argument list '()'
+  
+D:\Cplusplus\CourseProject1\firma1\main.cpp(231,21): error C3536: 'dept_it': cannot be used before it is initialized
+D:\Cplusplus\CourseProject1\firma1\main.cpp(231,53): error C2663: 'std::vector<_Ty,_Alloc>::end': no overloaded function has valid conversion for 'this' pointer
+      D:\visual studio\VC\Tools\MSVC\14.42.34321\include\vector(1813,44):
+      could be 'std::_Vector_const_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>> std::vector<_Ty,_Alloc>::end(void) noexcept const'
+          D:\Cplusplus\CourseProject1\firma1\main.cpp(231,53):
+          'std::_Vector_const_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>> std::vector<_Ty,_Alloc>::end(void) noexcept const': cannot convert 'this' pointer from 'std::vector' to 'const std::vector<_Ty,_Alloc> &'
+              D:\Cplusplus\CourseProject1\firma1\main.cpp(231,36):
+              Reason: cannot convert from 'std::vector' to 'const std::vector<_Ty,_Alloc>'
+              D:\Cplusplus\CourseProject1\firma1\main.cpp(231,36):
+              Conversion requires a second user-defined-conversion operator or constructor
+      D:\visual studio\VC\Tools\MSVC\14.42.34321\include\vector(1808,38):
+      or       'std::_Vector_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>> std::vector<_Ty,_Alloc>::end(void) noexcept'
+          D:\Cplusplus\CourseProject1\firma1\main.cpp(231,53):
+          'std::_Vector_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>> std::vector<_Ty,_Alloc>::end(void) noexcept': cannot convert 'this' pointer from 'std::vector' to 'std::vector<_Ty,_Alloc> &'
+              D:\Cplusplus\CourseProject1\firma1\main.cpp(231,36):
+              Reason: cannot convert from 'std::vector' to 'std::vector<_Ty,_Alloc>'
+              D:\Cplusplus\CourseProject1\firma1\main.cpp(231,36):
+              Conversion requires a second user-defined-conversion operator or constructor
+      D:\Cplusplus\CourseProject1\firma1\main.cpp(231,53):
+      while trying to match the argument list '()'
+  
+D:\Cplusplus\CourseProject1\firma1\main.cpp(231,29): error C2446: '!=': no conversion from 'std::_Vector_iterator<std::_Vector_val<conditional<std::_Is_simple_alloc_v<allocator_traits<_Alloc>::rebind_alloc<_Ty>>,std::_Simple_types<_Value_type>,std::_Vec_iter_types<_Ty,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::size_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::difference_type,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::pointer,allocator_traits<allocator_traits<_Alloc>::rebind_alloc<_Ty>>::const_pointer>>::type>>' to 'int'
+      D:\Cplusplus\CourseProject1\firma1\main.cpp(231,56):
+      No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  

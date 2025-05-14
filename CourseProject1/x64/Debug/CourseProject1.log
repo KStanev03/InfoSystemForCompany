@@ -1,0 +1,12 @@
+﻿  Company.cpp
+  Company.hpp
+  Department.cpp
+  Employee.cpp
+  main.cpp
+  Project.cpp
+  Utils.cpp
+D:\Cplusplus\CourseProject1 - Copy\CourseProject1\Utils.cpp(43,41): warning C4101: 'e': unreferenced local variable
+D:\Cplusplus\CourseProject1 - Copy\CourseProject1\Utils.cpp(215,22): warning C4101: 'newDDSStatus': unreferenced local variable
+  Generating Code...
+x64\Debug\Company.obj : warning LNK4042: object specified more than once; extras ignored
+  CourseProject1.vcxproj -> D:\Cplusplus\CourseProject1 - Copy\x64\Debug\CourseProject1.exe
